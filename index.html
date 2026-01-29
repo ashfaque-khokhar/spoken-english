@@ -18,6 +18,33 @@
 
     <main class="main">
       <div class="accordion">
+        <section class="accordion-item accordion-item--highlight" data-category="how-to-use">
+          <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="panel-how-to-use" id="trigger-how-to-use">
+            <span class="accordion-number">00</span>
+            <span class="accordion-label">How to Use This List (80/20 Method)</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel" id="panel-how-to-use" role="region" aria-labelledby="trigger-how-to-use" hidden>
+            <div class="panel-content">
+              <div class="how-to-use">
+                <h3 class="how-to-use__title">Daily Rule</h3>
+                <ol class="how-to-use__list">
+                  <li><strong>Learn 10 words</strong> each day from the list.</li>
+                  <li><strong>Make 3 sentences per word</strong> using your own ideas.</li>
+                  <li><strong>Speak them out loud</strong> so you remember and practice pronunciation.</li>
+                </ol>
+                <h3 class="how-to-use__title">Example</h3>
+                <p class="how-to-use__word">Word: <strong>go</strong></p>
+                <ul class="word-list">
+                  <li>I <em>go</em> to work every day.</li>
+                  <li>She wants to <em>go</em> to the market.</li>
+                  <li>We will <em>go</em> tomorrow.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="accordion-item" data-category="pronouns">
           <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="panel-pronouns" id="trigger-pronouns">
             <span class="accordion-number">01</span>
@@ -50,7 +77,7 @@
           <div class="accordion-panel" id="panel-articles" role="region" aria-labelledby="trigger-articles" hidden>
             <div class="panel-content">
               <ul class="word-list">
-                <li><strong>Articles:</strong></li><li></li> a, an, the</li>
+                <li><strong>Articles:</strong> a, an, the</li>
                 <li><strong>Prepositions:</strong></li>
                 <li>in, on, at, by, for, with</li>
                   <li>from, to, into, out</li>
@@ -318,25 +345,88 @@
           <div class="accordion-panel" id="panel-numbers" role="region" aria-labelledby="trigger-numbers" hidden>
             <div class="panel-content">
               <ul class="word-list">
-                <li>one to twenty</li>
-                    <li>thirty, forty, fifty, hundred</li>
-                    <li>first, second, last</li>
-                    <li>more, less</li>
-                    <li>many, few</li>
-                    <li>all, some, none</li>
-                    <li>each, every</li>
-                    <li>same, different</li>
-                    <li>part, whole</li>
-                    <li>top, bottom</li>
-                    <li>left, right</li>
-                <li><strong>Numbers:</strong> one, two, three, four, five, six, seven, eight, nine, ten, 
-                  eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, 
-                  twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, hundred, thousand, 
-                  first, second, third, fourth, fifth, half, quarter, double, triple</li>
-                <li><strong>Basics:</strong> yes, no, please, thanks, thank you, sorry, excuse me, hello, hi, goodbye,
-                   bye, okay, OK, well, oh, ah, um, uh, hey, wow, oh no, great, fine, good, bad, right, wrong,
-                    true, false</li>
-                    
+                <li><strong>Numbers:</strong> one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, hundred, thousand, first, second, third, fourth, fifth, half, quarter, double, triple</li>
+                <li><strong>Quantity:</strong> more, less, many, few, all, some, none, each, every, same, different, part, whole</li>
+                <li><strong>Position:</strong> top, bottom, left, right</li>
+                <li><strong>Basics:</strong> yes, no, please, thanks, thank you, sorry, excuse me, hello, hi, goodbye, bye, okay, OK, well, oh, ah, um, uh, hey, wow, great, fine, good, bad, right, wrong, true, false</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="accordion-item" data-category="greetings">
+          <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="panel-greetings" id="trigger-greetings">
+            <span class="accordion-number">11</span>
+            <span class="accordion-label">Greetings & Polite Expressions</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel" id="panel-greetings" role="region" aria-labelledby="trigger-greetings" hidden>
+            <div class="panel-content">
+              <ul class="word-list">
+                <li><strong>Greetings:</strong> Hello. / Hi. / Good morning. / Good afternoon. / Good evening. / Good night.</li>
+                <li><strong>Goodbye:</strong> Bye. / Goodbye. / See you. / See you later. / Take care.</li>
+                <li><strong>Please & Thanks:</strong> Please. / Thank you. / Thanks. / Thanks a lot. / You're welcome. / No problem.</li>
+                <li><strong>Sorry:</strong> Sorry. / I'm sorry. / Excuse me. / Pardon me.</li>
+                <li><strong>Checking in:</strong> How are you? / I'm fine. / I'm good. / How about you? / Nice to meet you.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="accordion-item" data-category="phrases">
+          <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="panel-phrases" id="trigger-phrases">
+            <span class="accordion-number">12</span>
+            <span class="accordion-label">Essential Daily Phrases</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel" id="panel-phrases" role="region" aria-labelledby="trigger-phrases" hidden>
+            <div class="panel-content">
+              <ul class="word-list">
+                <li><strong>Name:</strong> What is your name? — My name is … / I'm …</li>
+                <li><strong>Help:</strong> Can you help me? / I need help. / I don't understand. / Can you repeat that? / What does … mean?</li>
+                <li><strong>Yes/No:</strong> Do you speak English? — Yes, I do. / No, I don't. / Is this right? — Yes. / No.</li>
+                <li><strong>Location:</strong> Where is the …? / How do I get to …? / It's over there. / Turn left. / Turn right.</li>
+                <li><strong>Needs:</strong> I want … / I would like … / I need … / How much is it? / I'll take it.</li>
+                <li><strong>Opinion:</strong> I think … / I like it. / I don't like it. / It's good. / It's bad.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="accordion-item" data-category="time">
+          <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="panel-time" id="trigger-time">
+            <span class="accordion-number">13</span>
+            <span class="accordion-label">Days, Months & Time</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel" id="panel-time" role="region" aria-labelledby="trigger-time" hidden>
+            <div class="panel-content">
+              <ul class="word-list">
+                <li><strong>Days:</strong> Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</li>
+                <li><strong>Months:</strong> January, February, March, April, May, June, July, August, September, October, November, December</li>
+                <li><strong>Time of day:</strong> morning, afternoon, evening, night, midnight, noon</li>
+                <li><strong>Time:</strong> o'clock, minute, hour, half, quarter, now, later, early, late</li>
+                <li><strong>Frequency:</strong> every day, every week, once, twice, always, usually, often, sometimes, never</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="accordion-item" data-category="grammar">
+          <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="panel-grammar" id="trigger-grammar">
+            <span class="accordion-number">14</span>
+            <span class="accordion-label">Basic Grammar Tips</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel" id="panel-grammar" role="region" aria-labelledby="trigger-grammar" hidden>
+            <div class="panel-content">
+              <ul class="word-list">
+                <li><strong>Simple sentence:</strong> Subject + Verb + (Object). — I eat. / She reads a book.</li>
+                <li><strong>Present:</strong> I/You/We/They <em>go</em>. — He/She/It <em>goes</em>. (add -s for he/she/it)</li>
+                <li><strong>Past:</strong> I <em>went</em>. / She <em>worked</em>. (often add -ed, or irregular: go→went, see→saw)</li>
+                <li><strong>Future:</strong> I <em>will go</em>. / I <em>am going to</em> go.</li>
+                <li><strong>Negative:</strong> I <em>do not</em> (don't) like. / He <em>does not</em> (doesn't) like. / I <em>did not</em> (didn't) go.</li>
+                <li><strong>Question:</strong> <em>Do</em> you like? / <em>Does</em> she like? / <em>Did</em> you go? / <em>What</em> do you want?</li>
               </ul>
             </div>
           </div>
