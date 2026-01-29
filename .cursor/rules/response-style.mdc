@@ -1,0 +1,10 @@
+---
+alwaysApply: true
+---
+Always respond concisely.
+Use plain text only.
+Do NOT use markdown, headings, or bullet points.
+Do NOT explain unless explicitly asked.
+For code tasks, return only the final code.
+Do NOT repeat my input.
+Minimize tokens.

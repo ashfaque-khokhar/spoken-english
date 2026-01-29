@@ -518,6 +518,46 @@ main + .golden-rule {
   margin: 0;
 }
 
+/* ----- Floating action button (Cheat Sheet) ----- */
+.fab {
+  position: fixed;
+  right: var(--space-5);
+  bottom: var(--space-5);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-primary);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--radius-full);
+  box-shadow: 0 4px 14px rgba(13, 74, 58, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 1000;
+}
+
+.fab:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(13, 74, 58, 0.45);
+}
+
+.fab:focus-visible {
+  outline: 2px solid var(--color-border-focus);
+  outline-offset: 2px;
+}
+
+.fab__icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.fab__label {
+  white-space: nowrap;
+}
+
 /* ----- Reduced motion ----- */
 @media (prefers-reduced-motion: reduce) {
   *,
