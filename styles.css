@@ -79,6 +79,139 @@ body {
   font-weight: 500;
 }
 
+/* ----- The Golden Rule (Read First) ----- */
+.golden-rule {
+  margin: 0 0 1rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, rgba(201, 162, 39, 0.12), rgba(201, 162, 39, 0.04));
+  border: 1px solid rgba(201, 162, 39, 0.35);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--color-accent);
+}
+
+.golden-rule__heading {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.golden-rule__list {
+  margin: 0 0 0.75rem;
+  padding-left: 1.5rem;
+  list-style: none;
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.golden-rule__list li {
+  margin-bottom: 0.35rem;
+}
+
+.golden-rule__list li span {
+  margin-right: 0.5rem;
+}
+
+.golden-rule__no {
+  color: var(--color-text-muted);
+}
+
+.golden-rule__yes {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.golden-rule__quote {
+  margin: 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(201, 162, 39, 0.25);
+  font-size: 0.9375rem;
+  font-style: italic;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+/* ----- Final Power Rule & Truth ----- */
+.power-rule {
+  margin: 0 0 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, rgba(26, 95, 74, 0.08), rgba(201, 162, 39, 0.06));
+  border: 1px solid rgba(26, 95, 74, 0.2);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--color-primary);
+}
+
+.power-rule__heading {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 0.35rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.power-rule__heading:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.power-rule__text {
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ----- Daily Routine (30 min) ----- */
+.daily-routine {
+  margin: 0 0 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, rgba(26, 95, 74, 0.06), rgba(26, 95, 74, 0.02));
+  border: 1px solid rgba(26, 95, 74, 0.2);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--color-primary-light);
+}
+
+.daily-routine__heading {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.daily-routine__intro {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  margin: 0 0 0.75rem;
+}
+
+.daily-routine__list {
+  margin: 0;
+  padding-left: 1.5rem;
+  list-style: none;
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  line-height: 1.75;
+}
+
+.daily-routine__list li {
+  margin-bottom: 0.5rem;
+}
+
+.daily-routine__time {
+  display: inline-block;
+  min-width: 3.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
 /* ----- Accordion ----- */
 .accordion {
   display: flex;
