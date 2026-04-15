@@ -429,6 +429,13 @@ main + .golden-rule {
   color: var(--color-text);
 }
 
+.grammar-shortcut-note {
+  margin: var(--space-4) 0 var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
 .word-list .grammar-tense-group {
   list-style: none;
   padding-left: 0;
