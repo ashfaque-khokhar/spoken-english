@@ -689,9 +689,12 @@
               <div class="tense-master-layout">
               
                 <div class="tense-master-legend" aria-label="Legend">
-                  <span><span class="tense-dot tense-dot--pos" aria-hidden="true"></span>Positive</span>
-                  <span><span class="tense-dot tense-dot--neg" aria-hidden="true"></span>Negative</span>
-                  <span><span class="tense-dot tense-dot--qst" aria-hidden="true"></span>Question</span>
+                  <span class="tense-master-legend__chip tense-master-legend__chip--pos"><span class="tense-dot tense-dot--pos" aria-hidden="true"></span>Positive</span>
+                  <span class="tense-master-legend__chip tense-master-legend__chip--neg"><span class="tense-dot tense-dot--neg" aria-hidden="true"></span>Negative</span>
+                  <span class="tense-master-legend__chip tense-master-legend__chip--yn-pos"><span class="tense-dot tense-dot--yn-pos" aria-hidden="true"></span>Yes/No (+)</span>
+                  <span class="tense-master-legend__chip tense-master-legend__chip--yn-neg"><span class="tense-dot tense-dot--yn-neg" aria-hidden="true"></span>Yes/No (−)</span>
+                  <span class="tense-master-legend__chip tense-master-legend__chip--wh-pos"><span class="tense-dot tense-dot--wh-pos" aria-hidden="true"></span>WH (+)</span>
+                  <span class="tense-master-legend__chip tense-master-legend__chip--wh-neg"><span class="tense-dot tense-dot--wh-neg" aria-hidden="true"></span>WH (−)</span>
                 </div>
                 <div class="tense-master-shell">
                   <table class="grammar-table tense-master-table">
@@ -712,111 +715,111 @@
                       <td>Simple</td>
                       <td data-label="Positive" class="pos">S + V1/V1(s)</td>
                       <td data-label="Negative" class="neg">S + do/does not + V1</td>
-                      <td data-label="Yes/No (+)" class="qst">Do/Does + S + V1?</td>
-                      <td data-label="Yes/No (-)" class="qst">Do/Does + S + not + V1?</td>
-                      <td data-label="WH (+)" class="qst">Why + do/does + S + V1?</td>
-                      <td data-label="WH (-)" class="qst">Why + do/does + S + not + V1?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Do/Does + S + V1?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Do/Does + S + not + V1?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + do/does + S + V1?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + do/does + S + not + V1?</td>
                     </tr>
                     <tr>
                       <td>Continuous</td>
                       <td data-label="Positive" class="pos">S + am/is/are + Ving</td>
                       <td data-label="Negative" class="neg">S + am/is/are not + Ving</td>
-                      <td data-label="Yes/No (+)" class="qst">Am/Is/Are + S + Ving?</td>
-                      <td data-label="Yes/No (-)" class="qst">Am/Is/Are + S + not + Ving?</td>
-                      <td data-label="WH (+)" class="qst">Why + am/is/are + S + Ving?</td>
-                      <td data-label="WH (-)" class="qst">Why + am/is/are + S + not + Ving?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Am/Is/Are + S + Ving?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Am/Is/Are + S + not + Ving?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + am/is/are + S + Ving?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + am/is/are + S + not + Ving?</td>
                     </tr>
                     <tr>
                       <td>Perfect</td>
                       <td data-label="Positive" class="pos">S + have/has + V3</td>
                       <td data-label="Negative" class="neg">S + have/has not + V3</td>
-                      <td data-label="Yes/No (+)" class="qst">Have/Has + S + V3?</td>
-                      <td data-label="Yes/No (-)" class="qst">Have/Has + S + not + V3?</td>
-                      <td data-label="WH (+)" class="qst">Why + have/has + S + V3?</td>
-                      <td data-label="WH (-)" class="qst">Why + have/has + S + not + V3?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Have/Has + S + V3?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Have/Has + S + not + V3?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + have/has + S + V3?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + have/has + S + not + V3?</td>
                     </tr>
                     <tr>
                       <td>Perfect continuous</td>
                       <td data-label="Positive" class="pos">S + have/has been + Ving</td>
                       <td data-label="Negative" class="neg">S + have/has not been + Ving</td>
-                      <td data-label="Yes/No (+)" class="qst">Have/Has + S + been + Ving?</td>
-                      <td data-label="Yes/No (-)" class="qst">Have/Has + S + not been + Ving?</td>
-                      <td data-label="WH (+)" class="qst">Why + have/has + S + been + Ving?</td>
-                      <td data-label="WH (-)" class="qst">Why + have/has + S + not been + Ving?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Have/Has + S + been + Ving?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Have/Has + S + not been + Ving?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + have/has + S + been + Ving?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + have/has + S + not been + Ving?</td>
                     </tr>
                     <tr class="group-header"><td colspan="7">Past</td></tr>
                     <tr>
                       <td>Simple</td>
                       <td data-label="Positive" class="pos">S + V2</td>
                       <td data-label="Negative" class="neg">S + did not + V1</td>
-                      <td data-label="Yes/No (+)" class="qst">Did + S + V1?</td>
-                      <td data-label="Yes/No (-)" class="qst">Did + S + not + V1?</td>
-                      <td data-label="WH (+)" class="qst">Why + did + S + V1?</td>
-                      <td data-label="WH (-)" class="qst">Why + did + S + not + V1?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Did + S + V1?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Did + S + not + V1?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + did + S + V1?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + did + S + not + V1?</td>
                     </tr>
                     <tr>
                       <td>Continuous</td>
                       <td data-label="Positive" class="pos">S + was/were + Ving</td>
                       <td data-label="Negative" class="neg">S + was/were not + Ving</td>
-                      <td data-label="Yes/No (+)" class="qst">Was/Were + S + Ving?</td>
-                      <td data-label="Yes/No (-)" class="qst">Was/Were + S + not + Ving?</td>
-                      <td data-label="WH (+)" class="qst">Why + was/were + S + Ving?</td>
-                      <td data-label="WH (-)" class="qst">Why + was/were + S + not + Ving?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Was/Were + S + Ving?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Was/Were + S + not + Ving?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + was/were + S + Ving?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + was/were + S + not + Ving?</td>
                     </tr>
                     <tr>
                       <td>Perfect</td>
                       <td data-label="Positive" class="pos">S + had + V3</td>
                       <td data-label="Negative" class="neg">S + had not + V3</td>
-                      <td data-label="Yes/No (+)" class="qst">Had + S + V3?</td>
-                      <td data-label="Yes/No (-)" class="qst">Had + S + not + V3?</td>
-                      <td data-label="WH (+)" class="qst">Why + had + S + V3?</td>
-                      <td data-label="WH (-)" class="qst">Why + had + S + not + V3?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Had + S + V3?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Had + S + not + V3?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + had + S + V3?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + had + S + not + V3?</td>
                     </tr>
                     <tr>
                       <td>Perfect continuous</td>
                       <td data-label="Positive" class="pos">S + had been + Ving</td>
                       <td data-label="Negative" class="neg">S + had not been + Ving</td>
-                      <td data-label="Yes/No (+)" class="qst">Had + S + been + Ving?</td>
-                      <td data-label="Yes/No (-)" class="qst">Had + S + not been + Ving?</td>
-                      <td data-label="WH (+)" class="qst">Why + had + S + been + Ving?</td>
-                      <td data-label="WH (-)" class="qst">Why + had + S + not been + Ving?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Had + S + been + Ving?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Had + S + not been + Ving?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + had + S + been + Ving?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + had + S + not been + Ving?</td>
                     </tr>
                     <tr class="group-header"><td colspan="7">Future</td></tr>
                     <tr>
                       <td>Simple</td>
                       <td data-label="Positive" class="pos">S + will + V1</td>
                       <td data-label="Negative" class="neg">S + will not + V1</td>
-                      <td data-label="Yes/No (+)" class="qst">Will + S + V1?</td>
-                      <td data-label="Yes/No (-)" class="qst">Will + S + not + V1?</td>
-                      <td data-label="WH (+)" class="qst">Why + will + S + V1?</td>
-                      <td data-label="WH (-)" class="qst">Why + will + S + not + V1?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Will + S + V1?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Will + S + not + V1?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + will + S + V1?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + will + S + not + V1?</td>
                     </tr>
                     <tr>
                       <td>Continuous</td>
                       <td data-label="Positive" class="pos">S + will be + Ving</td>
                       <td data-label="Negative" class="neg">S + will not be + Ving</td>
-                      <td data-label="Yes/No (+)" class="qst">Will + S + be + Ving?</td>
-                      <td data-label="Yes/No (-)" class="qst">Will + S + not be + Ving?</td>
-                      <td data-label="WH (+)" class="qst">Why + will + S + be + Ving?</td>
-                      <td data-label="WH (-)" class="qst">Why + will + S + not be + Ving?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Will + S + be + Ving?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Will + S + not be + Ving?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + will + S + be + Ving?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + will + S + not be + Ving?</td>
                     </tr>
                     <tr>
                       <td>Perfect</td>
                       <td data-label="Positive" class="pos">S + will have + V3</td>
                       <td data-label="Negative" class="neg">S + will not have + V3</td>
-                      <td data-label="Yes/No (+)" class="qst">Will + S + have + V3?</td>
-                      <td data-label="Yes/No (-)" class="qst">Will + S + not have + V3?</td>
-                      <td data-label="WH (+)" class="qst">Why + will + S + have + V3?</td>
-                      <td data-label="WH (-)" class="qst">Why + will + S + not have + V3?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Will + S + have + V3?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Will + S + not have + V3?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + will + S + have + V3?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + will + S + not have + V3?</td>
                     </tr>
                     <tr>
                       <td>Perfect continuous</td>
                       <td data-label="Positive" class="pos">S + will have been + Ving</td>
                       <td data-label="Negative" class="neg">S + will not have been + Ving</td>
-                      <td data-label="Yes/No (+)" class="qst">Will + S + have been + Ving?</td>
-                      <td data-label="Yes/No (-)" class="qst">Will + S + not have been + Ving?</td>
-                      <td data-label="WH (+)" class="qst">Why + will + S + have been + Ving?</td>
-                      <td data-label="WH (-)" class="qst">Why + will + S + not have been + Ving?</td>
+                      <td data-label="Yes/No (+)" class="yn-pos">Will + S + have been + Ving?</td>
+                      <td data-label="Yes/No (-)" class="yn-neg">Will + S + not have been + Ving?</td>
+                      <td data-label="WH (+)" class="wh-pos">Why + will + S + have been + Ving?</td>
+                      <td data-label="WH (-)" class="wh-neg">Why + will + S + not have been + Ving?</td>
                     </tr>
                   </tbody>
                 </table>
