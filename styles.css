@@ -429,6 +429,43 @@ main + .golden-rule {
   color: var(--color-text);
 }
 
+.tense-grid-table {
+  min-width: 980px;
+}
+
+.tense-grid-table td {
+  min-width: 190px;
+}
+
+.tense-grid-table td:first-child,
+.tense-grid-table th:first-child {
+  min-width: 130px;
+}
+
+.tense-grid-line {
+  display: block;
+  margin-bottom: 0.35rem;
+  line-height: 1.45;
+}
+
+.tense-grid-line:last-child {
+  margin-bottom: 0;
+}
+
+.tense-master-table {
+  min-width: 1450px;
+}
+
+.tense-master-table td,
+.tense-master-table th {
+  min-width: 170px;
+}
+
+.tense-master-table td:first-child,
+.tense-master-table th:first-child {
+  min-width: 190px;
+}
+
 .grammar-shortcut-note {
   margin: var(--space-4) 0 var(--space-2);
   font-size: var(--text-sm);
