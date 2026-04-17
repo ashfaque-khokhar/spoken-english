@@ -693,7 +693,13 @@ main + .golden-rule {
   min-height: 2.25rem;
 }
 
-
+.pronouns-table tbody th.pronouns-table__note {
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+  font-size: var(--text-sm);
+}
 
 .grammar-shortcut-note {
   margin: var(--space-4) 0 var(--space-2);
