@@ -701,6 +701,29 @@ main + .golden-rule {
   font-size: var(--text-sm);
 }
 
+.articles-prep-table tbody th[scope="row"][rowspan] {
+  vertical-align: top;
+}
+
+.articles-prep-table tbody td:first-child:last-child {
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.common-verbs-table tbody td:first-child,
+.common-nouns-table tbody td:first-child {
+  width: 2.75rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.common-verbs-table tbody td:last-child,
+.common-nouns-table tbody td:last-child {
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
 .grammar-shortcut-note {
   margin: var(--space-4) 0 var(--space-2);
   font-size: var(--text-sm);
