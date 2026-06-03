@@ -693,6 +693,15 @@ main + .golden-rule {
   min-height: 2.25rem;
 }
 
+.verb-forms-table tbody .group-header td {
+  background: #f1f5f9;
+  color: #475569;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 .pronouns-table tbody th.pronouns-table__note {
   text-align: left;
   font-weight: 600;
